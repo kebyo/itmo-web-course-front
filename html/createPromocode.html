@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Вход</title>
+    <script src="../js/promocode.js"></script>
+</head>
+<body>
+<header>
+    <nav class="header__nav">
+        <a id="main" class="header__nav__link" href="../main.html">Главная</a>
+        <a class="header__nav__link" href="./auth/login.html">Вход</a>
+        <a class="header__nav__link" href="./auth/signup.html">Регистрация</a>
+    </nav>
+</header>
+<main>
+    <form name="createPromocodeForm">
+        <label>
+            Название продукта :
+            <input type="text" placeholder="Введите название продукта" name="productName" required>
+        </label>
+        <label>
+            Ссылка на продукт :
+            <input type="password" placeholder="Введите ссылку на продукт" name="productUrl" required>
+        </label>
+        <label>
+            Описание скидки :
+            <input type="text" placeholder="Введите ссылку на продукт" name="description" required>
+        </label>
+        <label>
+            Размер скидки :
+            <input type="number" placeholder="Введите размер скидки" name="saleSize" required>
+        </label>
+        <label>
+            Код:
+            <input type="text" placeholder="Введите код" name="code" required>
+        </label>
+
+        <input type="button" onclick="createPromocode()">Добавить</input>
+    </form>
+</main>
+</body>
+</html>

@@ -1,0 +1,31 @@
+body {
+    font-family: 'Roboto';
+}
+
+.header__nav {
+    display: flex;
+    width: 100%;
+}
+
+.header__nav__link {
+    color: white;
+    font-weight: bold;
+    padding: 1px 1px;
+    background: #1ba43b;
+    background-size: 10px;
+    border-radius: 3px;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.header__nav__link:hover {
+    background: greenyellow;
+}
+
+main {
+    margin-top: 10px;
+}
+
+form {
+
+}
